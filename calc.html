@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript Calculator</title>
+		<link rel='stylesheet' href='stylesheets/style.css' type='text/css' />
+		<link rel='stylesheet' href='materialize/css/materialize.css' />
+		<link rel='stylesheet' href='materialize/css/materialize.min.css' />
+		<script type="text/javascript" src='javascripts/app.js'></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src='materialize/js/materialize.js'></script>
+		<script type="text/javascript" src='materialize/js/materialize.min.js'></script>
+	</head>
+	<body>
+		<div>
+			<h1>JS CALCULATOR </h1>
+			<br /><br />
+	
+		<div class='keys'>
+
+			<form name='calc'>
+
+				<input id='num_input' type='text' name='result' />
+				<br />
+
+					<input type="button" onclick="numBtn(1 );" value='1' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(2);" value='2' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(3);" value='3' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn('+');" value='+' />
+					<br />
+					<br />
+
+					<input type="button" onclick="numBtn(4);" value='4' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(5);" value='5' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(6);" value='6' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn('-');" value='-' />
+					<br />
+					<br />
+
+					<input type="button" onclick="numBtn(7);" value='7' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(8);" value='8' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(9);" value='9' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn('*');" value='x' />
+					<br />
+					<br />
+
+					<input type="button" id='clr_btn'onclick="clrBtn();" value='C' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn(0);" value='0' /> &nbsp; &nbsp;
+					<input type="button" onclick="evalBtn('=');" value='=' /> &nbsp; &nbsp;
+					<input type="button" onclick="numBtn('/');" value='/' />
+				</form>
+			</div>
+	</body>
+</html>

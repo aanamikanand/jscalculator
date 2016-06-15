@@ -1,0 +1,9 @@
+div {
+	text-align: center;
+}
+
+#num_input {
+	width: 200px;
+	background-color: lightgrey;
+	font-weight: bold;
+}
